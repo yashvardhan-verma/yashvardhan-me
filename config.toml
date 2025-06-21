@@ -2,7 +2,7 @@ theme = "apollo"
 base_url = "https://yashvardhan.me"
 # title = "Yashvardhan"
 description = ""
-# build_search_index = true
+build_search_index = true
 generate_feeds = true
 compile_sass = true
 minify_html = true
@@ -16,7 +16,7 @@ taxonomies = [{ name = "tags" }]
 # index_format = "elasticlunr_json"
 
 [extra]
-toc = true
+toc = false
 use_cdn = false
 favicon = "/icon/favicon.png"
 theme = "auto"
@@ -26,16 +26,16 @@ mathjax = true
 mathjax_dollar_inline_enable = true
 
 menu = [
-    # { name = "/posts", url = "/posts", weight = 1 },
-    # { name = "/projects", url = "/projects", weight = 2 },
-    # { name = "/about", url = "/about", weight = 3 },
+    { name = "/posts", url = "/posts", weight = 1 },
+    { name = "/projects", url = "/projects", weight = 2 },
+    { name = "/about", url = "/about", weight = 3 },
     # { name = "/tags", url = "/tags", weight = 4 },
 ]
 
 socials = [
-    # { name = "github", url = "https://www.linkedin.com/in/yashvardhan-60b3a5184/", icon = "linkedin" },
-    # { name = "github", url = "https://github.com/yashvardhan-verma/", icon = "github" },
-    # { name = "twitter", url = "https://twitter.com/yashvrdhnx", icon = "twitter" },
+    { name = "github", url = "https://www.linkedin.com/in/yashvardhan-60b3a5184/", icon = "linkedin" },
+    { name = "github", url = "https://github.com/yashvardhan-verma/", icon = "github" },
+    { name = "twitter", url = "https://twitter.com/yashvrdhnx", icon = "twitter" },
 ]
 
 [markdown]
