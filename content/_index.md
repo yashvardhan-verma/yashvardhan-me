@@ -3,37 +3,33 @@ title = "Yashvardhan"
 template = "homepage.html"
 +++
 
-# Hey there, I'm Yashvardhan! 👋
+I'm a **Software Engineer** based in **Noida, India**, with a strong focus on **backend development, AI-driven systems, and scalable architectures**. I work primarily with **Python (FastAPI, Flask)**, **Node.js**, and **PostgreSQL**, building systems that balance performance, reliability, and clean design.
 
-I'm a **Software Engineer** based in **Noida, India**, with a passion for **backend development, AI-driven applications, and scalable architectures**. I specialize in **Python (FastAPI, Flask), Node.js, PostgreSQL**, and love optimizing **APIs, performance, and scalability**.
+## What I Do
+- **Backend Engineering** – Designing and implementing APIs, services, and scalable architectures.  
+- **AI Applications** – Integrating large language models and retrieval pipelines into production systems.  
+- **System Optimization** – Reducing latency, improving efficiency, and scaling applications for real-time use.  
 
-## 🚀 What I Do
-- 🏗 **Build Scalable Backends** – Designing APIs and microservices that perform at scale.
-- 🧠 **AI & Machine Learning** – Implementing AI-driven solutions for real-world applications.
-- ⚡ **High-Performance Systems** – Optimizing retrieval pipelines, reducing latency, and enhancing efficiency.
+## Notable Work
+- **LLM-based QA System for Call Centers** – Automated evaluations and reduced manual effort by 3×.  
+- **Optimized RAG Pipelines** – Cut API response times from 4 minutes to just 8 seconds.  
+- **Digital Health Platform Backend** – Built a robust system under India’s National Health Mission, improving data retrieval speed by over 95%.  
+- **E-commerce with Loan Disbursement** – Developed a full-stack solution using Next.js and PostgreSQL for seamless online transactions.  
+- **Automated Driving Test System (ADTS)** – Engineered real-time evaluation software for the Gujarat Motor Vehicle Department using multi-camera RTSP streams and computer vision.  
 
-## 🔥 Notable Work
-- **LLM-powered AI for Call Centers** – Automated evaluations & reduced manual effort **by 3x**.
-- **Optimized RAG Pipelines** – Brought API response times from **4 minutes to 8 seconds**.
-- **Digital Health Platform Backend** – Built a high-performance system under India's National Health Mission.
-- **E-commerce & Loan Disbursement** – Developed a **Next.js, PostgreSQL**-based e-commerce platform.
+## Skills & Technologies
+**Languages:** Python, JavaScript, C/C++, Bash, LaTeX  
+**Frameworks:** FastAPI, Flask, Django, Node.js, Express, Next.js, React  
+**Databases:** PostgreSQL, MongoDB, MySQL, DynamoDB  
+**AI/ML:** LLMs, Retrieval-Augmented Generation (RAG), Transformers, PyTorch, TensorFlow  
+**Cloud:** AWS, Azure  
+**Other Tools:** Docker, Git, Nginx, OpenCV  
 
-<!-- ## 📌 Featured Projects
-- 🎙 **CoughVid** – COVID-19 Cough Sound Classification _(AUC-ROC: 0.78)_
-- 🖼 **DC-GANs** – Generating Fashion MNIST images using GANs
-- 📚 **Master’s Thesis** – Graph Language Models for **Text Generation from Knowledge Graphs** -->
-
-## 💡 Skills & Technologies
-🛠 **Languages**: Python, JavaScript, C/C++, Bash, LaTeX  
-🚀 **Frameworks**: FastAPI, Flask, Django, Node.js, Express, Next.js, React  
-💾 **Databases**: PostgreSQL, MongoDB, MySQL, DynamoDB  
-☁ **Cloud Platforms**: AWS, Azure (EC2, S3, Lambda)  
-
-## 📫 Let's Connect!
-- 🏗 **GitHub**: [github.com/yashvardhan-verma](https://github.com/yashvardhan-verma)
-- 💼 **LinkedIn**: [linkedin.com/in/yashvardhan-60b3a5184](https://www.linkedin.com/in/yashvardhan-60b3a5184)
-- ✉ **Email**: [iamyashvardhan6@gmail.com](mailto:iamyashvardhan6@gmail.com)
+## Connect
+- **GitHub:** [github.com/yashvardhan-verma](https://github.com/yashvardhan-verma)  
+- **LinkedIn:** [linkedin.com/in/yashvardhan-60b3a5184](https://www.linkedin.com/in/yashvardhan-60b3a5184)  
+- **Email:** [iamyashvardhan6@gmail.com](mailto:iamyashvardhan6@gmail.com)  
 
 ---
 
-Want to see more? Check out my **[projects](./projects/)** or read my **[latest blog posts](./blog/)**!
+Want to explore more? Visit my **[projects](./projects/)** or read my **[blog](./blog/)**.
