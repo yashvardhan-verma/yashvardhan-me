@@ -34,5 +34,5 @@ I'm a **Software Engineer** based in **Noida, India**, with a strong focus on **
 
 ---
 
-Want to explore more? Visit my **[projects](./projects/)** or read my **[blog](./blog/)**.
+Want to explore more? Visit my **[projects](./projects/)** or read my **[blog](./posts/)**.
 

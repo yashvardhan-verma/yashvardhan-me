@@ -8,12 +8,12 @@ compile_sass = true
 minify_html = true
 taxonomies = [{ name = "tags" }]
 
-# [search]
-# include_title = true
-# include_description = true
-# include_path = true
-# include_content = true
-# index_format = "elasticlunr_json"
+[search]
+include_title = true
+include_description = true
+include_path = true
+include_content = true
+index_format = "elasticlunr_json"
 
 [extra]
 toc = false
