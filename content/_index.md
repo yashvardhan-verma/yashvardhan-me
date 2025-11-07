@@ -3,6 +3,25 @@ title = "Yashvardhan"
 template = "homepage.html"
 +++
 
+<!-- Include the library. -->
+
+<script
+  src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"
+></script>
+
+<!-- Optionally, include the theme (if you don't want to struggle to write the CSS) -->
+<link
+   rel="stylesheet"
+   href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"
+/>
+
+<!-- Prepare a container for your calendar. -->
+<div class="calendar">
+    <!-- Loading stuff -->
+    Loading the data just for you.
+</div>
+
+
 I'm a **Software Engineer** based in **Noida, India**, with a strong focus on **backend development, AI-driven systems, and scalable architectures**. I work primarily with **Python (FastAPI, Flask)**, **Node.js**, and **PostgreSQL**, building systems that balance performance, reliability, and clean design.
 
 ## What I Do
@@ -33,3 +52,11 @@ I'm a **Software Engineer** based in **Noida, India**, with a strong focus on **
 ---
 
 Want to explore more? Visit my **[projects](./projects/)** or read my **[blog](./blog/)**.
+
+
+<script>
+    GitHubCalendar(".calendar", "yashvardhan-verma");
+    // or enable responsive functionality
+    GitHubCalendar(".calendar", "yashvardhan-verma", { responsive: true });
+</script>
+
