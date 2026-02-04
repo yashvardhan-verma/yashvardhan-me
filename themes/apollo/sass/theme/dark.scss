@@ -17,8 +17,8 @@ $text-1: lighten($bg-0, 60%);
 
   --border-color: var(--bg-2);
 
-  --primary-color: white;
-  --hover-color: #0e88c1;
+  --primary-color: #0e88c1;
+  --hover-color: white;
 
   .social>img {
     filter: invert(1);
