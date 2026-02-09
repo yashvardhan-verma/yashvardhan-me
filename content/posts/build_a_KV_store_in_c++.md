@@ -18,8 +18,8 @@ A key and its associated value where :
 - Key: The unique identifier used to access the stored data.
 - Value: The data associated with the key. It can be anything—text, numbers, objects, etc.
 
-Usually a KV offers a vast avarienty of features including database management, user authentication and API to connect, but to build a simple KV store 
-a very little effort is required. 
+Usually a KV store offers a vast a varienty of features including database management, user authentication and API to connect, but to build a simple KV store 
+a very little effort is required.  
 A simple KV store can be build in C++ using **std::unordered_map** which is a container that stores key-value pairs, but the key and the value types are fixed at compile time when you declare the map. This means that both the key and value types must be specified when you declare the unordered_map and they cannot change for any element in that map.
 
 ```cpp
