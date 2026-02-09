@@ -91,16 +91,39 @@
     </div>
 {% endmacro content %}
 
+{% macro hero_intro(section) %}
+<div class="intro-container">
+    <img
+        src="{{ section.extra.profile_image }}"
+        alt="{{ section.title }}"
+        class="profile-photo"
+    />
+
+    <div class="intro-text">
+        {{ section.extra.intro_title | safe }}
+    </div>
+    <div class="socials">
+            {% for social in config.extra.socials %}
+            <a rel="me" href="{{ social.url }}" class="social">
+                <img alt={{ social.name }} src={{ get_url(path="icons/social/" ~ social.icon ~ ".svg") }}>
+            </a>
+            {% endfor %}
+    </div>
+</div>
+{% endmacro hero_intro %}
+
 {% macro home_page(section) %}
 <main>
     <article>
         <section class="body">
             {{post_macros::page_header(title=section.title)}}
+            {{post_macros::hero_intro(section=section)}}
             {{ section.content | safe }}
-        </section>
-    </article>
-</main>
+        </section>    
+    </article>    
+</main>    
 {% endmacro home_page %}
+
 
 {% macro content(page) %}
 <main>
