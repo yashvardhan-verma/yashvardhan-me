@@ -16,7 +16,8 @@
   --border-color: var(--border-color);
 
   /* Fonts */
-  --text-font: 'Jetbrains Mono';
+  --text-font:'Space Grotesk', 'Helvetica', sans-serif;
+
   --header-font: 'Space Grotesk', 'Helvetica', sans-serif;
   --code-font: 'Jetbrains Mono';
 }
@@ -37,18 +38,18 @@ html {
 
 @media all and (min-width:640px) {
   html {
-    font-size: 16.5px;
+    font-size: 12.5px;
   }
 }
 
 @media all and (min-width:720px) {
   html {
-    font-size: 17px;
+    font-size: 14px;
   }
 }
 
 @media all and (min-width:960px) {
   html {
-    font-size: 18px;
+    font-size: 17px;
   }
 }
