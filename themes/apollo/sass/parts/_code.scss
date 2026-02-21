@@ -31,6 +31,8 @@ $language-colors: (
     "java": (#f89820, "Java"),
     // Oracle Java color
     "csharp": (#178600, "C#"),
+    "c": (#555555, "C"),
+    "cpp": (#00599C, "C++"),
     "ruby": (#701516, "Ruby"),
     "swift": (#f05138, "Swift"),
     "php": (#777bb4, "PHP"),
@@ -52,7 +54,7 @@ $language-colors: (
     background: $bg-color;
     color: $text-color;
     border-radius: 0 0 0.25rem 0.25rem;
-    font-size: 10px;
+    font-size: 12px;
     letter-spacing: 0.025rem;
     padding: 0.1rem 0.5rem;
     text-align: right;
@@ -90,6 +92,7 @@ pre {
     overflow-x: auto;
     padding: 1em;
     position: relative;
+    font-size: 12px; // block size
 
     mark {
         background-color: var(--hightlight-color) !important; // Ensure mark uses the theme background
@@ -100,7 +103,7 @@ pre {
     code {
         background-color: transparent !important;
         color: var(--text-color);
-        font-size: 100%;
+        font-size: 14px; //font size of code 
         padding: 0;
         border: none;
         font-family: var(--code-font);
